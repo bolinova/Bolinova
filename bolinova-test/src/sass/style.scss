@@ -1,0 +1,241 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+hr {
+  border: 1px solid #cccccc;
+  border-top: none;
+  padding: 0;
+  margin: 0;
+}
+.main-container {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 489px;
+  background: #ffff;
+  margin: 0 auto;
+  font-size: 14px;
+
+  .header {
+    padding-left: 150px;
+    padding-top: 24px;
+    .header__name {
+      font-size: 16px;
+      letter-spacing: 0.2px;
+      font-weight: bold;
+      margin: 0;
+      p {
+        padding: 0;
+        margin: 0;
+      }
+    }
+    .header__description {
+      color: #b8b8b8;
+      font-size: 12px;
+      letter-spacing: 0.2px;
+      margin: 0;
+      padding: 0;
+      padding-top: 5px;
+    }
+  }
+  .header-photo {
+    position: relative;
+    top: -45px;
+    left: 20px;
+    z-index: 110;
+    .header-photo__description {
+      position: absolute;
+      top: 52px;
+      left: 90px;
+      box-sizing: border-box;
+      background-color: #fffbc8;
+      height: 56px;
+      width: 360px;
+      border: 1px solid #cecabf;
+      border-radius: 5px;
+      z-index: -10;
+      p {
+        margin: 0;
+        padding: 7px;
+        padding-left: 40px;
+        line-height: 1.5;
+      }
+    }
+  }
+  .service {
+    position: relative;
+    top: -51px;
+    margin-left: 150px;
+    width: 319px;
+    height: 109px;
+
+    padding: 0;
+    .service__title {
+      text-align: right;
+      margin: 0;
+      padding: 0;
+      padding-right: 32px;
+      padding-bottom: 7px;
+      letter-spacing: 0.1x;
+    }
+    .service__list {
+      position: relative;
+      .service__items li {
+        height: 24px;
+        margin-bottom: 2px;
+        border-radius: 2px;
+      }
+      .green {
+        width: 219px;
+        background-color: #b1e19b;
+      }
+      .longBlue {
+        width: 54px;
+        background-color: #ace2f8;
+      }
+      .shortBlue {
+        width: 35px;
+        background-color: #ace2f8;
+      }
+    }
+    .service__enumeration {
+      margin: 0;
+      display: flex;
+      justify-content: space-between;
+      position: absolute;
+      top: -11px;
+      left: 7px;
+      .service__offer {
+        li {
+          padding-bottom: 13px;
+          font-size: 13px;
+        }
+        :nth-child(2) {
+          padding-bottom: 11px;
+        }
+      }
+      .service__digit {
+        margin-left: 61px;
+        font-weight: bold;
+        li {
+          padding-bottom: 10px;
+          letter-spacing: 0.2px;
+          text-align: right;
+        }
+      }
+    }
+    .service__common {
+      display: flex;
+      justify-content: space-between;
+      font-weight: bold;
+      font-size: 16px;
+      padding-top: 13px;
+      padding-right: 42px;
+    }
+  }
+  .comments {
+    .comments__header {
+      display: flex;
+      margin-top: 24px;
+      .comments__title h3 {
+        padding: 0;
+        margin: 0;
+        margin-right: 5px;
+        margin-left: 19px;
+      }
+      .comments__icons {
+        display: flex;
+        margin-top: 4px;
+        font-size: 12px;
+        line-height: 10px;
+        .likes {
+          padding-right: 22px;
+        }
+      }
+      .comments__link p {
+        padding: 0;
+        margin: 0;
+        color: #005da1;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        padding-top: 2px;
+        margin-right: 125px;
+      }
+    }
+    .reviews {
+      padding-left: 16px;
+      padding-top: 13px;
+      .peopleSay {
+        padding: 0;
+        margin: 0;
+        padding-bottom: 9px;
+        .peopleSay__header {
+          display: flex;
+          .peopleSay__name {
+            h4 {
+              padding: 0;
+              padding-left: 4px;
+              margin: 0;
+              padding-right: 9px;
+            }
+          }
+          .peopleSay__date {
+            padding: 0;
+            margin: 0;
+            font-size: 11px;
+            line-height: 19px;
+            color: #8a8a8a;
+          }
+        }
+        .peopleSay__comment {
+          padding: 0;
+          margin: 0;
+          position: relative;
+          font-size: 14px;
+
+          p {
+            position: absolute;
+            z-index: 22;
+            top: 24px;
+            left: 25px;
+            padding: 0;
+            margin: 0;
+            line-height: 19px;
+          }
+        }
+      }
+    }
+  }
+  .footer {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    height: 195px;
+    background-color: #f2f2f2;
+    text-align: center;
+    .input {
+      height: 61px;
+      width: 441px;
+      margin-top: 30px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      resize: none;
+    }
+    .button {
+      outline: none;
+      cursor: pointer;
+      background-color: #fdd639;
+      height: 42px;
+      width: 283px;
+      border: none;
+      border-radius: 25px;
+      font-weight: bold;
+      font-size: 14px;
+      margin-top: 19px;
+    }
+  }
+}

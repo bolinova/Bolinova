@@ -1,0 +1,203 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0; }
+
+ul {
+  list-style-type: none;
+  padding-left: 0; }
+
+hr {
+  border: 1px solid #cccccc;
+  border-top: none;
+  padding: 0;
+  margin: 0; }
+
+.main-container {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 489px;
+  background: #ffff;
+  margin: 0 auto;
+  font-size: 14px; }
+  .main-container .header {
+    padding-left: 150px;
+    padding-top: 24px; }
+    .main-container .header .header__name {
+      font-size: 16px;
+      letter-spacing: 0.2px;
+      font-weight: bold;
+      margin: 0; }
+      .main-container .header .header__name p {
+        padding: 0;
+        margin: 0; }
+    .main-container .header .header__description {
+      color: #b8b8b8;
+      font-size: 12px;
+      letter-spacing: 0.2px;
+      margin: 0;
+      padding: 0;
+      padding-top: 5px; }
+  .main-container .header-photo {
+    position: relative;
+    top: -45px;
+    left: 20px;
+    z-index: 110; }
+    .main-container .header-photo .header-photo__description {
+      position: absolute;
+      top: 52px;
+      left: 90px;
+      box-sizing: border-box;
+      background-color: #fffbc8;
+      height: 56px;
+      width: 360px;
+      border: 1px solid #cecabf;
+      border-radius: 5px;
+      z-index: -10; }
+      .main-container .header-photo .header-photo__description p {
+        margin: 0;
+        padding: 7px;
+        padding-left: 40px;
+        line-height: 1.5; }
+  .main-container .service {
+    position: relative;
+    top: -51px;
+    margin-left: 150px;
+    width: 319px;
+    height: 109px;
+    padding: 0; }
+    .main-container .service .service__title {
+      text-align: right;
+      margin: 0;
+      padding: 0;
+      padding-right: 32px;
+      padding-bottom: 7px;
+      letter-spacing: 0.1x; }
+    .main-container .service .service__list {
+      position: relative; }
+      .main-container .service .service__list .service__items li {
+        height: 24px;
+        margin-bottom: 2px;
+        border-radius: 2px; }
+      .main-container .service .service__list .green {
+        width: 219px;
+        background-color: #b1e19b; }
+      .main-container .service .service__list .longBlue {
+        width: 54px;
+        background-color: #ace2f8; }
+      .main-container .service .service__list .shortBlue {
+        width: 35px;
+        background-color: #ace2f8; }
+    .main-container .service .service__enumeration {
+      margin: 0;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+      position: absolute;
+      top: -11px;
+      left: 7px; }
+      .main-container .service .service__enumeration .service__offer li {
+        padding-bottom: 13px;
+        font-size: 13px; }
+      .main-container .service .service__enumeration .service__offer :nth-child(2) {
+        padding-bottom: 11px; }
+      .main-container .service .service__enumeration .service__digit {
+        margin-left: 61px;
+        font-weight: bold; }
+        .main-container .service .service__enumeration .service__digit li {
+          padding-bottom: 10px;
+          letter-spacing: 0.2px;
+          text-align: right; }
+    .main-container .service .service__common {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+      font-weight: bold;
+      font-size: 16px;
+      padding-top: 13px;
+      padding-right: 42px; }
+  .main-container .comments .comments__header {
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 24px; }
+    .main-container .comments .comments__header .comments__title h3 {
+      padding: 0;
+      margin: 0;
+      margin-right: 5px;
+      margin-left: 19px; }
+    .main-container .comments .comments__header .comments__icons {
+      display: -ms-flexbox;
+      display: flex;
+      margin-top: 4px;
+      font-size: 12px;
+      line-height: 10px; }
+      .main-container .comments .comments__header .comments__icons .likes {
+        padding-right: 22px; }
+    .main-container .comments .comments__header .comments__link p {
+      padding: 0;
+      margin: 0;
+      color: #005da1;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      padding-top: 2px;
+      margin-right: 125px; }
+  .main-container .comments .reviews {
+    padding-left: 16px;
+    padding-top: 13px; }
+    .main-container .comments .reviews .peopleSay {
+      padding: 0;
+      margin: 0;
+      padding-bottom: 9px; }
+      .main-container .comments .reviews .peopleSay .peopleSay__header {
+        display: -ms-flexbox;
+        display: flex; }
+        .main-container .comments .reviews .peopleSay .peopleSay__header .peopleSay__name h4 {
+          padding: 0;
+          padding-left: 4px;
+          margin: 0;
+          padding-right: 9px; }
+        .main-container .comments .reviews .peopleSay .peopleSay__header .peopleSay__date {
+          padding: 0;
+          margin: 0;
+          font-size: 11px;
+          line-height: 19px;
+          color: #8a8a8a; }
+      .main-container .comments .reviews .peopleSay .peopleSay__comment {
+        padding: 0;
+        margin: 0;
+        position: relative;
+        font-size: 14px; }
+        .main-container .comments .reviews .peopleSay .peopleSay__comment p {
+          position: absolute;
+          z-index: 22;
+          top: 24px;
+          left: 25px;
+          padding: 0;
+          margin: 0;
+          line-height: 19px; }
+  .main-container .footer {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    height: 195px;
+    background-color: #f2f2f2;
+    text-align: center; }
+    .main-container .footer .input {
+      height: 61px;
+      width: 441px;
+      margin-top: 30px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      resize: none; }
+    .main-container .footer .button {
+      outline: none;
+      cursor: pointer;
+      background-color: #fdd639;
+      height: 42px;
+      width: 283px;
+      border: none;
+      border-radius: 25px;
+      font-weight: bold;
+      font-size: 14px;
+      margin-top: 19px; }
